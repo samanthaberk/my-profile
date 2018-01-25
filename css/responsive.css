@@ -1,0 +1,109 @@
+/* ==============================================================
+                LARGEST DEVICES 
+@media(min-width: 1200px) {    
+    /* Everything is good to go! */    
+}
+============================================================*/
+
+
+/* ==============================================================
+                LARGE DEVICES 
+@media(min-width: 992px) and (max-width: 1199px) {    
+    #about p {
+        width: 200px;
+        font-size: 16px;
+    }
+    #about-welcome-msg  {
+        display: table-cell;
+        margin: 0 auto;
+    }
+    #about-bg-selfie {
+        height: 10px;
+        width: 300px;
+    }   
+    #about-bg-pyramids {
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+    }    
+    #about-bg-temple {
+        width: 350px;
+        height: 330px;
+        margin-left: 50px;
+    }
+    .skill-icon {
+        width: 75px;
+        height: 50px;
+    }
+}
+============================================================*/
+
+
+/* ==============================================================
+            MEDIUM DEVICES (Desktops & Landscape Tablets)
+
+@media(min-width: ) and (max-width: 991px) {
+    .content-title h3 {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    #about-welcome-msg {
+        margin-right: 50px;
+    }
+    #about p {
+        width: 400px;
+    }
+    p {
+        font-size: 17px;
+    }
+    #about-bg-pyramids,
+    #about-bg-temple {
+        width: 350px;
+        margin-left: 20px;
+    }
+    .skill-icon {
+        width: 75px;
+        height: 50px;
+    }
+}
+============================================================*/
+
+/* ==============================================================
+            SMALL DEVICES (Portrait Tablets & Small Desktops)
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+    }    
+    .content-title h3 {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    .content-title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #about p {
+        width: 350px;
+    }
+    #about-bg-pyramids,
+    #about-bg-temple {
+        display: none;
+    }    
+    #about-bg-selfie {
+    }    
+}
+============================================================*/
+
+/* ==============================================================
+            X-SMALL DEVICES (Landscape Phones & Portrait Tablets)
+@media(min-width: 767px){
+    .navbar {
+        background: rgba(0, 0, 0, 0.5);
+    }    
+    #about p {
+        width: 650px;
+    }
+}
+============================================================*/
+
