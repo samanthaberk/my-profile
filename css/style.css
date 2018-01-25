@@ -286,6 +286,7 @@ nav li a {
     width: 100%;
     height: 100%;
     display: table;
+    position: absolute;
 }
 
 #about-content-box-inner {
@@ -309,6 +310,7 @@ nav li a {
     margin-bottom: 0;
     text-align: justify;
     width: 425px;
+    line-height: 1.1em;
 }
 
 #about-bg-selfie {
@@ -323,6 +325,7 @@ nav li a {
     border-left: 90px solid #f4f4f4;
     margin-left: 60px;
     padding-right: 250px;
+    position: absolute;
 }
 
 
